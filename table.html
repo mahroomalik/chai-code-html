@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table{
+            width:60%;
+            border-collapse:collapse;
+            text-align: center;
+            background-color: rgb(163, 159, 155);
+        }
+        th, td {
+            border: 2px solid #210303;
+            padding: 10px;
+        }
+        tr:nth-child(even){
+            background-color: #fbf7f7;
+        }
+        thead,
+tfoot {
+  background-color: #3f87a6;
+  color: #fff;
+}
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+        <col span="2" style="background-color: aquamarine;"/>
+    </colgroup>
+    <thead>
+        <tr>
+            <th >Name</th>
+            <th>class</th>
+            <th>age</th>
+            <th>subject</th>
+        </tr>
+        <tr>
+            <td>mahroo</td>
+            <td>computer</td>
+            <td>25</td>
+            <td>BS SE</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>sana</td>
+            <td>computer</td>
+            <td>25</td>
+            <td>BS ecnomics</td>
+        </tr>
+        <tr>
+            <td>mahnoor</td>
+            <td>computer</td>
+            <td>25</td>
+            <td>BSit</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>my name</th>
+            <td>Mahroo Malik</td>
+        </tr>
+        
+    </tfoot>
+    </table>
+</body>
+</html>

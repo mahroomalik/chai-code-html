@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Forms in html </h1>
+    Note: post is use for encrypted form, get is use to visible data <br/>
+    <br/>
+    <form action="/form.php" method="GET" accept-charset="UTF-8" autocomplete="off" enctype="application/x-www-form-urlencoded" novalidate target="_blank">
+        <label for="fname">Full Name:</label>
+        <input type="text" placeholder ="First Name" name="" id="fname"><br/>
+        <br/>
+        <label for="class">class:</label>
+        <input type="text" placeholder ="class" value="bs-cs" name="" id="class"><br/>
+        <br/>
+        <select name="editors" id="">
+            <option value="vscode">vscode</option>
+            <option value="sublime">sublime</option>
+            <option value="atom">atom</option>
+        </select>
+        <br/><br/>
+        <input list="editor " name="editors">
+        <datalist id="editor">
+            <option value="vscode">vscode</option>
+            <option value="sublime">sublime</option>
+            <option value="atom">atom</option>
+        </datalist>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    <br/>
+    <br/>
+        <button type="submit">submit</button>
+    </form>
+    <hr/>
+
+    <h1> multi-media audio/ video</h1>
+    <video  width="320" height="240" autoplay muted controls>
+        <source src="" type="">
+    </video>
+</body>
+</html>
