@@ -1,0 +1,14 @@
+
+{
+    "comment" : "%%%%%  JSON => javascript object notationis same as object %%%%% " ,
+    "firstName" : "mah",
+    "lastName" : "Roo",
+    "course4" : "bs-software engineering",
+    "email": "mahroomalik786@gmail.com",
+    "class": "bscs",
+    "semester" : 8,
+    "comment1" : "//console.log(JSON.parse(jsonText1)); , this is run in browser console by above command"
+}
+ 
+  
+  
